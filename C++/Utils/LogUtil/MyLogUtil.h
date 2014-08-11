@@ -32,6 +32,7 @@ class LogObjHolder
 
 	public:
 		std::map<std::string, MyDebugLogger*> *logObjects;	
+		void CreateNewLogObj(std::string logId,std::string logFilePath);
 
 };
 
